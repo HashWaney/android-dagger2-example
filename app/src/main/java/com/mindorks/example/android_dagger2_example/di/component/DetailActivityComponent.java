@@ -12,8 +12,7 @@ import dagger.Component;
 @ActivityScope
 public interface DetailActivityComponent {
 
-    void inject(DetailActivity detailActivity)
-            ;
+    void inject(DetailActivity detailActivity);
 
 
 }

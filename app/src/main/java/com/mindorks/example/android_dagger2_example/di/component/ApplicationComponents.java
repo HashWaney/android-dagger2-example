@@ -2,7 +2,6 @@ package com.mindorks.example.android_dagger2_example.di.component;
 
 import android.content.Context;
 
-import com.mindorks.example.android_dagger2_example.DemoApplication;
 import com.mindorks.example.android_dagger2_example.MyApplication;
 import com.mindorks.example.android_dagger2_example.di.module.ContextModule;
 import com.mindorks.example.android_dagger2_example.di.module.RetrofitModule;

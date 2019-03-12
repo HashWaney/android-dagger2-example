@@ -2,6 +2,7 @@ package com.mindorks.example.android_dagger2_example.adapter;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -79,6 +80,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             constraintLayoutContainer.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    Log.e("RecycleViewAdapter","data:"+data.toString());
                     clickListener.launchIntent(data.get(getAdapterPosition()).films.get(0));
                 }
             });
